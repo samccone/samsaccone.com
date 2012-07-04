@@ -1,0 +1,45 @@
+ @media screen and (max-width: 820px) {
+  body {
+    #wrap {
+      h1 {
+        font-size: 54px !important;
+      }
+      a {
+        .flag {
+          bottom: -15px !important;
+        }
+      }
+      .right {
+        .title, .role {
+          margin-left: 6px !important;
+          margin-right: 6px !important;
+        }
+      }
+      .left {
+        .title, .role {
+          margin-right: 6px !important;
+          margin-right: 6px !important;
+        }
+      }
+      .title {
+      }
+      .role {
+        margin-top: 5px;
+        display: block;
+      }
+      .divider {
+        display: none;
+      }
+      .vert {
+        margin: 15px auto !important;
+        height: 75px !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body #wrap h1 {
+    font-size: 40px !important;
+  }
+}
