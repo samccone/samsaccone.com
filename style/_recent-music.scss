@@ -13,6 +13,8 @@
   }
   @include transition(all, 200ms);
   img {
+    overflow: hidden;
+    display: inline-block;
     @include opacity(0.5);
     @include transition(all, 700ms);
     @include border-radius(50%);
