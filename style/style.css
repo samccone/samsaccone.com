@@ -59,10 +59,46 @@ table {
     display: none; }
   body #wrap .vert {
     margin: 15px auto !important;
-    height: 75px !important; } }
+    height: 75px !important; }
+  body #wrap #recent-music {
+    zoom: 0.7; } }
 @media screen and (max-width: 600px) {
   body #wrap h1 {
     font-size: 40px !important; } }
+#recent-music {
+  margin-top: 50px;
+  zoom: 1;
+  text-align: center;
+  -webkit-transition: all, 200ms;
+  -moz-transition: all, 200ms;
+  -ms-transition: all, 200ms;
+  -o-transition: all, 200ms;
+  transition: all, 200ms; }
+  #recent-music h3 {
+    display: none;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 300;
+    color: #414141;
+    text-shadow: 0px -1px 0px #272727; }
+  #recent-music img {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    opacity: 0.5;
+    -webkit-transition: all, 700ms;
+    -moz-transition: all, 700ms;
+    -ms-transition: all, 700ms;
+    -o-transition: all, 700ms;
+    transition: all, 700ms;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%; }
+    #recent-music img:hover {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+      opacity: 0.9; }
+
 body {
   background-color: #323232;
   color: #FFF;

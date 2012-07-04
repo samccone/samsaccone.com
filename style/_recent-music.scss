@@ -1,0 +1,23 @@
+#recent-music {
+  margin-top: 50px;
+  zoom: 1;
+  text-align: center;
+  h3 {
+    display: none;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 300;
+    color: #414141;
+    @include text-shadow(0px -1px 0px #272727);
+  }
+  @include transition(all, 200ms);
+  img {
+    @include opacity(0.5);
+    @include transition(all, 700ms);
+    @include border-radius(50%);
+    &:hover {
+      @include opacity(0.9);
+    }
+  }
+}
